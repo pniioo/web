@@ -1,0 +1,405 @@
+.amount_items .col-4 {
+    padding: 0px 4px !important;
+}
+
+.amount_items .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    width: 100% !important;
+    margin: 4px -14px;
+}
+
+p.o_amount_text {
+    margin: 0;
+    margin-top: 17px;
+    color: aquamarine;
+    font-size: 12px;
+}
+
+.custom_amount_select {
+    margin-top: 10px;
+}
+
+h3.o_user_balance {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 14px;
+}
+
+.amount_items .btn-success {
+    background-color: #28a7451a;
+    border-color: transparent;
+    color: #0000009c !important;
+}
+
+.amount_items .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show > .btn-success.dropdown-toggle {
+    border-color: transparent !important;
+}
+
+.amount_items .btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show > .btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem transparent;
+}
+
+.amount_items .btn-success.focus, .btn-success:focus {
+    color: #fff !important;
+    background-color: #218838;
+    border-color: transparent;
+    box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.custom_amount_select .input-group-text {
+    padding: .375rem 0rem;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #495057ed;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.custom_amount_select .form-control {
+    font-size: 12px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+p.left_amount {
+    line-height: 10;
+}
+
+.confirmation_ntn a {
+    background: linear-gradient(180deg, #54D2A5 0%, #189D75 100%) !important;
+    padding: 9px 11px;
+    text-align: center;
+    color: #fff !important;
+    display: block;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.condition_text p {
+    font-size: 12px;
+    margin: 7px 0;
+}
+
+.condition_text {
+    margin-top: 10px;
+}
+
+.confirmation_modal.modal {
+    top: 100px !important;
+}
+
+p.confi_text {
+    padding: 20px 15px;
+    color: #000000ad;
+    margin-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 1px solid transparent;
+}
+
+.okye {
+    background: linear-gradient(180deg, #54D2A5 0%, #189D75 100%) !important;
+}
+
+h3.one_pay_logo img {
+    width: 35px;
+}
+
+h3.one_pay_timer {
+    font-size: 22px;
+}
+
+h3.one_pay_logo span {
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+h3.one_pay_timer {
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+.one_pay_order_id p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.one_pay_order_id {
+    padding: 15px 14px;
+    border-radius: 15px 15px 0 0;
+}
+
+.one_pay_tk {
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px 0 60px 0;
+    border-radius: 0 0 17px 17px;
+}
+
+label.write_account_label {
+    display: block;
+    margin-top: 15px;
+    color: #000000ab;
+    font-size: 14px;
+}
+
+input.write_account {
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #00000082;
+    border-radius: 8px;
+}
+
+input.write_account:focus-visible {
+    border: 1px solid #00000082 !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border-color: #fff;
+    height: 60px;
+    padding: 7.5px 0;
+    border-radius: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 58px;
+}
+
+.select2-dropdown {
+    border-radius: 0;
+    box-shadow: #444 0px 3px 5px;
+    border: 0;
+}
+
+.select2-container--default .select2-selection--single {
+    border-color: #000;
+    height: 64px;
+    padding: 10.5px 0;
+    border-radius: 50px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #000 !important;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-selection--single {
+    border-color: #000;
+    height: 65px;
+    padding: 10.5px 0;
+    border-radius: 50px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 2px solid #000 !important;
+    border-radius: 4px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px !important;
+    position: absolute;
+    top: 14px;
+    right: 1px;
+    width: 20px;
+}
+
+span#select2-options\[212\]-x3-container {
+    margin-top: -12px !important;
+}
+
+span#select2-options\[212\]-2y-container img {
+    border-radius: 14px !important;
+}
+
+img.selec_img {
+    width: 28px;
+}
+
+a.go_payment_btn {
+    background: #413737a1;
+    display: block;
+    padding: 13px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.go_arrow {
+    position: absolute;
+    top: 8px;
+    right: 17px;
+    font-size: 26px;
+}
+
+img.timeout_logo {
+    width: 90px;
+}
+
+p.time_over {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+a.order_cancel {
+    background: #000;
+    display: block;
+    padding: 16px 0;
+    border-radius: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+h3.pay_details_header {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    background: #419eff;
+    padding: 13px 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+}
+a.go_back_to_details {
+    color: #fff;
+    font-size: 19px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.pay_details_banner img {
+    width: 90px;
+}
+.pay_details_banner h3 {
+    font-size: 21px;
+}
+.pay_details_banner {
+    position: relative;
+}
+.details_timer {
+    position: absolute;
+    right: 70px;
+    top: 35px;
+    border: 1px solid #0000002b;
+    padding: 2px 10px;
+    font-size: 11px;
+    border-radius: 4px;
+    color: #00000070;
+}
+p.any_issue {
+    margin: 0;
+    text-align: right;
+    font-size: 12px;
+    color:rgb(255, 164, 61);
+}
+h4.pay_step {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 15px;
+    background: #419eff;
+    padding: 10px 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.b.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border: 1px solid #0000001a !important;
+}
+h3.b_acc {
+    font-size: 14px;
+    color: #0000006e;
+    margin: 0;
+    margin-top: 7px;
+}
+.copy .btn {
+    padding: 6px 6px;
+}
+input.copy_pay_number {
+    border: none;
+    height: 34px;
+}
+input.copy_pay_number:focus-visible{
+    outline: none;
+    border: none;
+}
+.dotted_border {
+    width: 100%;
+    border: 1px dashed #7a6d6d3d;
+    margin: 12px 0;
+}
+.t.card-body {
+    border: 1px dashed #00000030;
+    border-radius: 5px;
+}
+p.details_star {
+    color: #00000080;
+    font-size: 11px;
+    padding: 6px 22px;
+    margin-bottom: 3px;
+}
+img.pay_role {
+    width: 100%;
+}
+input.transaction_id {
+    font-size: 12px;
+    width: 95%;
+    margin-top: 15px;
+    border: 1px solid #00000078;
+    margin: 12px auto;
+    height: 36px;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+input.transaction_id:focus{
+    outline: none;
+}
+.final_btn .btn {
+    padding: 15px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.c_btn{
+    color: #abbcff;
+}
+.con_btn{
+    background-color: #5370e5;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #5370e5;
+    border-color: transparent;
+}
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+span.select2-dropdown.select2-dropdown--below {
+    margin: 9px 0px;
+    height: 200px;
+}
+img.copier {
+    width: 12px;
+    padding-left: 0px;
+}

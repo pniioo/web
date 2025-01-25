@@ -1,0 +1,116 @@
+/* 轮播图 */
+.slideshow {
+    width: 91.5%;
+    margin: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-pagination {
+    text-align: center;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 2px !important;
+    width: 100%;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0px 6px !important;
+}
+
+:root {
+    --swiper-theme-color: #fff !important;
+}
+
+.swiper-pagination-bullet {
+    width: 30px !important;
+    height: 2px !important;
+    border-radius: 50% !important;
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);
+    background-color: #423c3c;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color, var(--swiper-theme-color));
+    width: 30px !important;
+    height: 2px !important;
+    border-radius: 2px !important;
+    background-color: #fff !important;
+}
+
+
+
+
+
+.productAll{
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+.productBox{
+     width: 100%;
+     border: 1px solid var(--border1);
+     border-radius: 16px;
+     padding: 16px 24px;
+     box-sizing: border-box;
+     margin-bottom: 16px;
+     background-color: var(--backgroundColor2);
+}
+
+.productBox > img{
+   width: 242px;
+   height: auto;
+   display: block;
+   margin: auto;
+   margin-bottom: 10px;
+}
+
+.productItem{
+    font-size: 14px;
+    font-family: 'font2';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color3);
+    margin-bottom: 6px;
+}
+
+.productColor{
+    color: var(--color1);
+    font-family: 'font3';
+}
+
+.buyBtn{
+    width: 100%;
+    height: 46px;
+    border-radius: 54px;
+    border: 0;
+    background: var(--backgroundColor3);
+    font-size: 16px;
+    font-family: 'font2';
+    color: var(--color3);
+    margin-top: 12px;
+}

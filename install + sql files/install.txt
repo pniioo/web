@@ -1,0 +1,6 @@
+php8.1+
+database setup /.env
+admin url yourdomain.com/admin
+admin
+123456
+https://t.me/MB_TECH_A1

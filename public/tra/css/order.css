@@ -1,0 +1,143 @@
+.excessiveBox {
+    width: 91.5%;
+    margin: 4px auto 16px auto;
+    border-radius: 16px;
+    background-color: var(--backgroundColor1);
+    border: 1px solid var(--border2);
+    font-size: 14px;
+    font-family: 'font2';
+    color: #9E52FF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+.incomeBox {
+    width: 91.5%;
+    height: 76px;
+    margin: 8px auto 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color3);
+    border-radius: 44px;
+    border: 1px solid var(--border2);
+    background-color: var(--backgroundColor1);
+}
+
+.incomeBox {
+    width: 91.5%;
+    height: 76px;
+    margin: 8px auto 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color3);
+    border-radius: 44px;
+    border: 1px solid var(--border2);
+    background-color: var(--backgroundColor1);
+}
+
+.incomeBox .incomeItem:first-child {
+    border-right: 1px solid #696F7A;
+}
+
+.incomeItem {
+    height: 100%;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.incomeItem span {
+    font-size: 14px;
+    font-family: 'font2';
+}
+
+.incomeItem p {
+    font-size: 18px;
+    font-family: 'font3';
+    margin-top: 2px;
+}
+
+
+
+.orderBox {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.orderTime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'font4';
+    color: var(--color3);
+    position: relative;
+}
+
+.orderInfoBox {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid var(--border1);
+    background-color: var(--backgroundColor2);
+    margin-top: 8px;
+    padding: 8px 16px 0 16px;
+    box-sizing: border-box;
+}
+
+.orderInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.infoColor,
+.infoColor2 {
+    font-size: 14px;
+    font-family: 'font2';
+    color: var(--color3);
+    line-height: 1.4;
+}
+
+.infoColor span,
+.infoColor2 span {
+    font-family: 'font3';
+}
+
+.infoColor2 {
+    text-align: right;
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+
+.orderTime p::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.orderTime p {
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.chooseBox{
+    margin-bottom: 16px;
+}

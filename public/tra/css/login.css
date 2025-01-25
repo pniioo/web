@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    padding-bottom: 40px;
+    background: linear-gradient(to bottom, #101722, #141D2E);
+}
+
+.bjt {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.logo {
+    width: 162px;
+    height: 46px;
+    margin: 100px auto 50px auto;
+    display: block;
+}
+
+
+.modeBox {
+    width: 88%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border: 1px solid var(--border1);
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    padding: 38px 0;
+    box-sizing: border-box;
+}
+
+
+.modeBox>p {
+    width: 75%;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'font2';
+    color: var(--color3);
+    text-align: center;
+}
+
+.modeBox>span {
+    display: block;
+    font-size: 14px;
+    font-family: 'font2';
+    color: var(--color3);
+    text-align: center;
+    margin-top: 18px;
+}
+
+.modeBox>span a {
+    color: var(--color3);
+    font-family: 'font1';
+    text-decoration: underline;
+}
+
+
+.logoBox {
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+
+.form_box {
+    width: 100%;
+    margin: 0px auto;
+}
+
+
+.formImg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.formImg>p {
+    width: 100%;
+    color: var(--color3);
+    font-family: 'font2';
+    font-size: 12px;
+    text-align: center;
+}
+
+.formImg img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+
+.form {
+    width: 100%;
+    height: 48px;
+    margin: auto;
+    border: 1px solid var(--border2);
+    box-sizing: border-box;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 28px;
+    margin-bottom: 16px;
+    position: relative;
+    background-color: var(--backgroundColor1);
+}
+
+/* .form p {
+    font-size: 12px;
+    color: #A8A8A8;
+    font-family: 'font4';
+    position: absolute;
+    left: 17%;
+} */
+
+
+.form>input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: "font4";
+    color: var(--color3);
+    text-align: center;
+}
+
+
+.form>input::placeholder {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-family: "font2";
+}
+
+
+.form>.otp {
+    width: 70px;
+    height: 28px;
+    margin-right: 0;
+    position: absolute;
+    right: 16px;
+}
+
+.form>.otpipt {
+    width: 100%;
+}
+
+
+
+.loginB {
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    background: var(--backgroundColor3);
+    border: 0;
+    font-size: 18px;
+    font-family: 'font2';
+    color: var(--color3);
+}

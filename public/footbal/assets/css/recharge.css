@@ -1,0 +1,250 @@
+.recharge-page {
+	min-height: 100vh;
+	background: #fff;
+	padding-bottom: 5.333333vw;
+}
+.header-section {
+	width: 100%;
+	padding-top: 2.666667vw;
+}
+.header-area {
+	height: 21.333333vw;
+	color: #000;
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-area .back-icon-area {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.header-area .back-icon-area img{
+	width: 100%;
+}
+.header-area .title-area h2 {
+	font-size: 4.533333vw;
+	font-weight: 600;
+	color: #263249;
+	position: relative;
+	display: inline-block;
+}
+.header-area .title-area h2::after {
+	display: block;
+	content: "";
+	width: 5.333333vw;
+	height: .8vw;
+	background: #263249;
+	border-radius: .4vw;
+	margin-top: .666667vw;
+	left: 50%;
+	position: absolute;
+	bottom: -6px;
+	transform: translateX(-50%);
+}
+.announce-page .header-area .title-area h2::after {
+	display: none;
+}
+.header-area .title-area {
+	text-align: center;
+}
+/* === Recharge banner Css === */
+.banner-area {
+	width: 100%;
+	height: 30.266667vw;
+	background: url(../image/recharge-bg.png) no-repeat;
+	background-size: auto;
+	background-size: cover;
+	margin: 0 auto;
+	padding: 3.2vw 4vw 3.2vw;
+	display: flex;
+	justify-content: space-between;
+}
+.banner-area .banner-title p {
+	font-size: 3.2vw;
+	color: hsla(0,0%,100%,.8);
+	margin-right: 1.6vw;
+}
+.banner-area .banner-right .banner-title p {
+    color: #fff;
+    font-size: 3.733333vw;
+}
+.banner-area .banner-title img {
+	width: 4.266667vw;
+	height: 4.266667vw;
+}
+.banner-area .balance p {
+	font-size: 4vw;
+	font-weight: 600;
+	color: #fff;
+	text-align: left;
+	margin: 1.333333vw 0 1.333333vw;
+	display: flex;
+	transform: translateY(1.333333vw);
+}
+.banner-area .balance p span{
+	font-size: 4.533333vw;
+    font-weight: 600;
+    color: #fff;
+    margin-left: .666667vw;
+    display: block;
+}
+.banner-area .record-area {
+	margin-top: 38px;
+	display: flex;
+	justify-content: flex-end;
+}
+.banner-area .record-area a{
+	width: 21.333333vw;
+	height: 6.4vw;
+	background: #fff;
+	border-radius: 3.2vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-area .record-area img{
+	width: 3.2vw;
+    height: 3.2vw;
+}
+.banner-area .record-area span{
+	font-size: 3.2vw;
+    font-weight: 500;
+    color: #0064a6;
+    margin-right: 1.333333vw;
+}
+.banner-area .banner-title {
+	display: flex;
+	align-items: center;
+}
+/* === Method section Css ===*/
+.recharge-section ,
+.method-section {
+	width: 100%;
+	background: #fff;
+	padding: 3.333333vw 0 0 4vw;
+}
+.recharge-title {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 3.2vw;
+}
+.recharge-title img{
+	width: 5.333333vw;
+    height: 5.333333vw;
+    margin-right: 1.733333vw;
+}
+.recharge-title p{
+	font-size: 4.266667vw;
+    color: #263249;
+}
+.recharge-section .recharge-btn-area {
+    justify-content: space-between;
+}
+.recharge-section .recharge-btn-area ,
+.method-section .method-btn-area {
+	margin-top: 4vw;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-right: 4vw;
+}
+.recharge-section .recharge-btn {
+	width: 20.333333vw;
+    text-align: center;
+}
+
+.recharge-btn {
+	display: inline-block;
+	line-height: 9.866667vw;
+	padding: 0 4vw;
+	height: 9.866667vw;
+	background: #fff;
+	border-radius: 5.333333vw;
+	border: 1px solid #979797;
+	margin: 0 2.666667vw 2.666667vw 0;
+	font-weight: 500;
+	text-decoration: none;
+	color: #000;
+}
+.recharge-btn.active {
+	border: 0;
+    color: #fff;
+    font-size: 3.733333vw;
+    background: linear-gradient(90deg,#00578e,#1182cb);
+}
+.recharge-section .recharge-btn:nth-child(4) ,
+.recharge-section .recharge-btn:nth-child(8) {
+	margin-right: 0;
+}
+/* === Recharge Input Section Css  === */
+.recharge-input-section {
+	width: 100%;
+	padding: 25px 0;
+}
+.recharge-input-area {
+	width: 100%;
+    text-align: center;
+    position: relative;
+}
+.recharge-input-area input {
+	width: 100%;
+	height: 9.866667vw;
+	background: #fff;
+	border-radius: 5.333333vw;
+	border: 1px solid #979797;
+	padding: 1.333333vw 2.666667vw;
+	margin-top: 2.666667vw;
+	font-size: 4.266667vw;
+	font-weight: 500;
+	padding-left: 40px;
+    outline: none;
+    position: relative;
+}
+.recharge-input-area::after {
+	position: absolute;
+	content: 'Rs.';
+	top: 23px;
+	left: 12px;
+	display: block;
+	font-size: 3.733333vw;
+}
+.recharge-input-area input::placeholder {
+	font-weight: 500;
+}
+.recharge-input-area .rn-btn {
+	margin: 6.666667vw 0 0;
+	width: 77.333333vw;
+	height: 10.666667vw;
+	background: #027cca;
+	box-shadow: inset 0 0 1.066667vw .533333vw #027cca;
+	border-radius: 5.333333vw;
+	border: .266667vw solid #027cca;
+	font-size: 4.266667vw;
+	font-weight: 500;
+	color: #fff;
+}
+/* === Rules Section Css === */
+.rules-section {
+	margin-top: 0;
+	width: 100%;
+	background: #fff;
+	padding: 3.2vw 0 3.2vw 4vw;
+}
+.rules-area {
+	width: 100%;
+}
+.rules-area .cont-text {
+	font-size: 3.733333vw;
+	color: #000;
+	text-align: left;
+	margin-top: 2.666667vw;
+	padding-right: 4vw;
+}

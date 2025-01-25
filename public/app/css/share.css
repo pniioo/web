@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.share-section{
+    width: 100%;
+    background-color: #F4F8F7;
+}
+.share-section .share-banner{
+    width: 100%;
+    padding: 6px 20px;
+}
+.share-section .share-banner h2 {
+    font-size: 18px;
+    color: #fafafa;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.share-section .share-banner h3{
+    font-size: 24px;
+    color: #fafafa;
+    font-weight: 600;
+}
+.share-info{
+    width: 100%;
+    padding: 20px 0;
+}
+.share-info .single-info{
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-bottom: 1px solid #F4F8F7;
+}
+.share-info .single-info h4 {
+    color: #388B74;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.share-info .single-info h4 span:nth-child(2){
+    font-size: 22px;
+}
+.share-info .single-info p{
+    color: #8C8F96;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.share-info .single-info {
+    width: 100%;
+    background-color: #0000000f;
+    padding: 5px 10px;
+    border-bottom: 1px solid #F4F8F7;
+    margin: 3px 0;
+    border-radius: 5px;
+}
+
+.share-info .single-info h4 {
+    color: #000;
+    font-size: inherit;
+}
+.share-info .single-info h4 span:nth-child(2) {
+    font-size: 14px;
+}

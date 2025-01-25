@@ -1,0 +1,567 @@
+:root {
+    --vip-main: #285e61;
+}
+ul.bottom-menu.list-unstyled.list-inline li img {
+    width: 20px;
+}
+ul.bottom-menu.list-unstyled.list-inline li {
+    text-align: center;
+}
+ul.bottom-menu.list-unstyled.list-inline li p {
+    font-size: 10px;
+    color: #000 !important;
+}
+.bottom-menu {
+    justify-content: space-around;
+}
+.dash-balance {
+    height: 170px;
+    padding: 0px;
+}
+.item {
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    height: 170px;
+    justify-content: center;
+}
+.trans-sec {
+    top: -17px;
+    z-index: 22;
+}
+.trans-sec {
+    top: 0px;
+    background: #fff;
+    display: block;
+    position: relative;
+    border-radius: 0px 0px 30px 30px;
+    padding: 15px 15px 30px 15px !important;
+    box-shadow: 0 5px 10px #0000003d;
+}
+
+.serv-item {
+    padding: 10px 0px 0;
+}
+
+video {
+    border-radius: 5px;
+}
+
+.serv-icon {
+    margin: 0 auto -2px;
+    border-radius: 10px;
+}
+a.serv-icon img {
+    width: 40px;
+}
+.serv-item span {
+    color: #000000;
+    font-size: 13px;
+}
+
+.bal-section {
+    position: relative;
+    margin-top: 10px !important;
+}
+.task_center{
+    color: #213266;
+}
+.second_slider_item {
+    box-shadow: 0 5px 10px #00000029;
+    padding: 5px 12px;
+    border-radius: 4px;
+}
+.second_slider_item {
+    box-shadow: 0 5px 10px #00000029;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.second_slider_item p {
+    margin: 0;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.second_slider_item h2 {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    font-weight: 600;
+}
+
+.second_slider_container .owl-carousel .owl-stage-outer {
+    height: 78px !important;
+}
+
+.task_center {
+    color: #213266;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/*accordion*/
+.accordion .card {
+    border: none;
+    margin-bottom: 2px;
+}
+.accordion .card h2 {
+    background: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png) no-repeat calc(100% - 10px) center;
+    background-size: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0px 0;
+    box-shadow: 0 5px 10px #00000021;
+    padding: 10px 10px;
+    color: #000;
+    font-weight: 400;
+}
+
+.accordion .card h2.collapsed {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png);
+}
+.accordion .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #00f73226;
+    border-color: transparent transparent transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
+    font-size: 13px;
+    color: #948989;
+}
+
+.trad_item_one img {
+    width: 20px;
+}
+.trad_item_one span {
+    font-size: 10px;
+    color: #00000078;
+    font-weight: 700;
+}
+
+.arrow-button {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    -webkit-filter: drop-shadow(3px 3px 3px rgba(50, 50, 50, 0.35));
+    -webkit-transform: translateZ(0);
+}
+.arrow-button .label {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    float: left;
+    background-color: #4ab385;
+    transition: all 0.2s;
+    font-size: 13px;
+    font-weight: 300 !important;
+}
+.arrow-button .arrow {
+    display: block;
+     float: none;
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 14px solid #4ab385;
+    transition: all 0.2s;
+}
+.arrow-button:hover .label {
+    background-color: #2b6a4e;
+}
+.arrow-button:hover .arrow {
+    border-left: 20px solid #2b6a4e;
+}
+.arrow-button:focus {
+    outline: 0 !important;
+}
+.trad_table.table td, .table th {
+    padding: 0 !important;
+    border-top: 0px solid transparent !important;
+}
+div#accordionExample .card {
+    box-shadow: 0 5px 10px #00000029;
+}
+
+
+
+
+.testimonials {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30px 1fr !important;
+    line-height: 54px;
+    box-shadow: 0 5px 10px #00000026;
+    padding: 0 7px;
+}
+
+.testimonials-control img {
+    width: 17px;
+    margin-top: 18px;
+}
+
+.testimonials-badge{
+    display: none;
+}
+
+p.home_desc {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 6px;
+    margin-top: 35px;
+}
+
+.testimonials-badge {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ddd !important;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.testimonials-quotes {
+    width: 60px;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.testimonials-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.testimonials-control i {
+    margin-bottom: 30px;
+
+}
+
+.testimonials-text {
+    display: none;
+    overflow: hidden;
+    background: #fff;
+}
+
+.testimonials-text p {
+    margin-top: 6px !important;
+    line-height: 22px;
+    padding: 1px 0px;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+span.testimonial-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8b29;
+}
+
+span.testimonial-position-held {
+    font-style: italic;
+    font-size: 18px;
+    color: #949391;
+}
+
+.testimonials-animate-bottom {
+    position: relative;
+    animation: testimonials-animatebottom 0.4s;
+}
+@keyframes testimonials-animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+.testimonials-animate-fading {
+    animation: testimonials-fading 10s infinite;
+}
+@keyframes testimonials-fading {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.testimonials-animate-opacity {
+    animation: testimonials-opac 0.8s;
+}
+@keyframes testimonials-opac {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.b_box small {
+    color: #000;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+}
+.b_box h4 {
+    font-size: 18px;
+    color: #213266;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 0 !important;
+    text-align: center;
+}
+.b_box h4 small {
+    font-size: 10px;
+}
+.resources-card {
+    width: 50%;
+    padding: 25px 8px;
+}
+
+.partner img{
+    width: 100%;
+}
+.partner_item {
+    box-shadow: 0px 0px 2px 1px #0000001f;
+}
+
+/***********************VIP**************/
+/* VIP Pages */
+.cus_service {
+    margin-right: 15px;
+    float: right;
+}
+section.vip_banner {
+    height: 136px;
+    border-radius: 0px 0px 70px 70px;
+    position: relative;
+}
+.vip_slider_box {
+    position: absolute;
+    width: 93%;
+    height: 131px;
+    background: #fff;
+    transform: translate(-50%, 55px);
+    left: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    top: -50px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100% !important;
+    height: 150px;
+}
+img.mike {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+section.marquer {
+    margin-top: 12px;
+}
+section.marquer marquee {
+    margin-top: 7px;
+    color: var(--vip-main);
+    font-weight: 900;
+}
+h3.my-balance {
+    font-size: 16px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 0;
+}
+.badger_item_icon {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--vip-main);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.badger_item_text {
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5px;
+}
+.badger_item_icon i{
+    color: var(--vip-main);
+}
+.header_box_card{
+    border: none;
+}
+.header_box.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    box-shadow: 0px 5px 10px #285e618a;
+}
+.mike i {
+    font-size: 20px;
+    color: var(--vip-main);
+    margin-top: 6px;
+}
+.vip_item_img img {
+    width: 100%;
+    margin-top: 10px;
+}
+.vip_item_with_amo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h2.vip_title_hiro {
+    font-size: 14px;
+    color: #222;
+    margin: 0;
+    margin-top: 10px;
+}
+.vip_card {
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+.v_amount{
+    color: var(--vip-main);
+    font-weight: bold;
+}
+.vip_item_with_amo li {
+    margin: 6px 0;
+}
+
+.fa_checker input {
+    display: none;
+}
+.fa_checker label {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff373d;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+.fa_checker .inner {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    transform: scale(0.6);
+    transition: all 200ms ease-out 100ms;
+}
+.fa_checker .icon {
+    display: block;
+    width: 20px;
+    height: 3px;
+}
+.fa_checker .icon:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    transform: rotate(45deg);
+    border-radius: 3px;
+    transition: all 200ms ease-out;
+}
+.fa_checker .icon:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    transform: rotate(-45deg);
+    border-radius: 3px;
+    transition: all 200ms ease-out;
+}
+.fa_checker input.effect-one:checked + label .icon:after {
+    right: -5px;
+}
+.fa_checker input.effect-one:checked + label .icon:before {
+    width: 11px;
+    top: 4px;
+}
+.fa_checker input.effect-two:checked + label .icon:after {
+    width: 11px;
+    top: 4px;
+    right: 9px;
+    transform: rotate(45deg);
+}
+.fa_checker input.effect-two:checked + label .icon:before {
+    transform: rotate(-45deg);
+    right: -5px;
+}
+.fa_checker input:checked + label .inner {
+    background: var(--vip-main);
+    transform: scale(1);
+}
+
+.fa_checker .container {
+    text-align: center;
+    margin: 50px auto;
+}
+.fa_checker .container label {
+    margin: 0 5px;
+}
+.fa_checker .spacer {
+    margin: 0 10px;
+}
+.fa_checker .align-middle, .inner, .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.card.card_box {
+    border: none;
+    box-shadow: 0px 5px 10px #15572445;
+    margin: 0 7px;
+}
+
+.serve-section .serv-item span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.serve-section .serv-item img {
+    width: 40px;
+}

@@ -1,0 +1,301 @@
+
+  /* === slider area css === */
+.slider-area {
+    width: 100%;
+    padding: 10px 7px;
+    padding-top: 55px;
+    background: #F2FAFC;
+}
+  .slider-area .slider div {
+    border-radius: 20px;
+  }
+  .slider-area img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+  .marquee-area {
+    width: 100%;
+    padding: 3px 15px;
+    position: relative;
+    background: #F2FAFC;
+  }
+  .marquee-area .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2B90D6;
+}
+.marquee-area .text {
+  width: auto;
+  margin-left: 15px;
+  color: #112332;
+  font-weight: 800;
+}
+  /* === Dash Balance === */
+  .dash-balance {
+    padding: 0px 20px 50px;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-area {
+  width: 40%;
+}
+.logo-area .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem .75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: .25rem;
+  transition: all .15s ease-in-out;
+}
+.logo-area .user-doller {
+  display: inline-block;
+  color: #fafafa;
+  font-size: 20px;
+}
+.logo-area .user-doller img {
+  width: 22px;
+}
+.logo-area .user-doller span {
+
+  margin-top: 2px;
+}
+a.btn.user-doller {
+  background: #fafafa;
+  color: #76A8AF;
+  border: 2px solid #e7a289;
+  font-size: 16px;
+  width: 150px;
+  padding: 2px 3px;
+  text-align: left;
+  line-height: 16px;
+  border-radius: 25px;
+}
+.navi-menu-button img {
+  width: 22px;
+  margin-top: 4px;
+}
+.header-section .menu-area {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 7px;
+}
+/* === Banner Section === */
+.banner-section{
+  width: 100%;
+  position: relative;
+}
+.banner-section .slider{
+  width: 100%;
+}
+.banner-section .slider .slider-item{
+  width: 100%;
+}
+.banner-section .slider .slider-item img {
+  width: 100%;
+  height: 230px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+.banner-section .announce-ment {
+  position: absolute;
+  bottom: 20px;
+  width: 95%;
+  background: #FDF6D6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 7px;
+  border-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.banner-section .announce-ment .icon {
+  position: absolute;
+  width: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.banner-section .announce-ment .icon img{
+  width:100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+.banner-section .announce-ment .text {
+  width: 100%;
+  padding-left: 15px;
+}
+.banner-section .announce-ment .text marquee {
+  margin-bottom: -7px;
+  color: #B07965;
+}
+/* === Serve Section === */
+.serve-section {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  /* border-radius: 15px 15px 0 0; */
+  padding: 10px 10px;
+}
+.serve-section .services-bulk {
+  background: url(../img/dash-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.serve-section .serv-item {
+  padding: 20px 0px 0;
+}
+.serve-section .content-row:nth-child(2) {
+  padding: 15px 0;
+}
+.serve-section .serv-item img {
+  width: 100%;
+}
+.serve-section .serv-item span {
+  color: #F2FAEF;
+  font-size: 16px;
+  font-weight: 700;
+}
+.serv-icon {
+  border: none;
+  background: none;
+}
+/* === Card Section CSS === */
+.card-section{
+  width: 100%;
+  background: #EFEFEF;
+  padding: 20px 0px;
+}
+.card-section .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.card-section .card-area{
+  width: 100%;
+  background: #FBFEFE;
+  display:flex ;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.card-section .card-area .card-item {
+  width: 48%;
+  background: #EFEFEF;
+  border-radius: 5px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-section .card-area .card-item .card-text{
+  width: 70%;
+
+}
+.card-section .card-area .card-item .card-text h3 {
+  margin:0 0 5px 0;
+  font-size: 16px;
+}
+.card-section .card-area .card-item .card-text p {
+  font-size: 11px;
+}
+.card-section .card-area .card-item .card-image{
+  width: 30%;
+}
+.card-section .card-area .card-item .card-image img{
+  width: 100%;
+}
+/* === Menu Bottom === */
+ul.bottom-menu.list-unstyled.list-inline {
+  justify-content: space-around;
+}
+.bottom-menu-section ul li {
+  text-align: center;
+}
+.bottom-menu-section ul li img {
+  width: 35px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+/* === Benefit Section === */
+.benefits-section {
+  width: 100%;
+  padding: 20px 10px;
+}
+.benefits-section .card-area {
+  width: 100%;
+  background-color: #E61C4C;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px 15px;
+  position: relative;
+  z-index: 11;
+}
+.benefits-section .card-area .card-text {
+  width: 100%;
+}
+.benefits-section .card-area .card-text h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 800;
+}
+.benefits-section .card-area .card-text h4 {
+  margin: 6px 0 12px 0;
+  font-size: 16px;
+}
+.benefits-section .card-area .card-text h4 span {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.benefits-section .card-area .card-text h4 span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  top: 45%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.benefits-section .card-area .card-text .btn {
+  background: #fff;
+  font-weight: 800;
+  border-radius: 46px;
+  padding: 8px 18px;
+  color: #AE2E00;
+}
+.benefits-section .card-area .card-img{
+  width: 38%;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: -1;
+
+}
+.benefits-section .card-area .card-img img{
+  width: 100%;
+
+}
+
+
+/* === Footer Section === */
+footer {
+  background-color: #EFEFEF;
+}

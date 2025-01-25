@@ -1,0 +1,39 @@
+/* spinner animation */
+
+@keyframes spin{
+    0%{
+        transform: rotate(-360deg);
+    }
+    
+    /* 25%{
+        transform: rotate(360deg);
+    }
+    
+    75%{
+        transform: rotate(720deg);
+    } */
+    
+    100%{
+        transform: rotate(1800deg);
+    }
+}
+
+/* shake animation*/
+@keyframes shake{
+    10% {
+        transform: rotate(15deg)
+    }
+    20% {
+        transform: rotate(-10deg)
+    }
+    30% {
+        transform: rotate(5deg)
+    }
+    40% {
+        transform: rotate(-5deg)
+    }
+    50%,
+    to {
+        transform: rotate(0)
+    }
+}

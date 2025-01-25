@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "font1";
+  src: url(../font/Syne-Bold.otf);
+}
+
+@font-face {
+  font-family: "font2";
+  src: url(../font/Syne-Regular.otf);
+}
+
+@font-face {
+  font-family: "font3";
+  src: url(../font/Inter-Bold.otf);
+}
+
+@font-face {
+  font-family: "font4";
+  src: url(../font/Inter-Regular.otf);
+}
+
+
+.font1 {
+  font-family: "font1";
+}
+
+.font2 {
+  font-family: "font2";
+}
+
+.font3 {
+  font-family: "font3";
+}
+
+.font4 {
+  font-family: "font4";
+}
+
+
+:root {
+  --color1: #C26CFF;
+  --color2: #A8A8A8;
+  --color3: #fff;
+  --border1: rgba(255, 255, 255, 0.30);
+  --border2: rgba(255, 255, 255, 0.20);
+  --backgroundColor1: rgba(0, 0, 0, 0.31);
+  --backgroundColor2: rgba(255, 255, 255, 0.10);
+  --backgroundColor3: linear-gradient(to right, #1000FB, #A71EAC);
+}
+
+
+html {
+  height: 100%;
+  font-size: 16rem;
+}
+
+body {
+  height: 100%;
+  padding: 62px 0px 73px 0px;
+  box-sizing: border-box;
+  background-color: #131C2C;
+  scroll-behavior: smooth;
+}
+
+
+/* 头部 */
+.head {
+  width: 100%;
+  height: 62px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  position: fixed;
+  top: 0px;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: "font1";
+  color: #fff;
+  background-color: #131C2C;
+}
+
+.logo {
+  width: 113px;
+  height: auto;
+}
+
+.backBox {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'font1';
+  display: flex;
+  align-items: center;
+}
+
+.arrows {
+  width: 24px;
+  height: 24px;
+}
+
+.back {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* 底部导航 */
+.base_nav {
+  width: 100%;
+  height: 73px;
+  background-color: #131c2c;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.08);
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+}
+
+.nav {
+  width: 75px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "font2";
+  font-size: 12px;
+  color: #fff;
+  position: relative;
+}
+
+.nav_img {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.navcolor {
+  font-family: "font2";
+  font-size: 12px;
+  color: #9E52FF;
+}
+
+
+
+/* 遮罩层 */
+.mask {
+  background-color: rgba(0, 0, 0, 0.50);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 15;
+}
+
+
+
+/* 错误提示*/
+.error,
+.successprompt,
+.successcopied,
+.download {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 91.5%;
+  font-size: 14px;
+  font-family: "font3";
+  color: #FC5656;
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 15px;
+  z-index: 211;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 1px solid #FC5656;
+}
+
+.error>p {
+  color: #FC5656;
+  text-align: center;
+}
+
+.circleimg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+/* 成功提示*/
+.successprompt,
+.successcopied,
+.download {
+  background-color: rgba(0, 0, 0, 0.70);
+  border: 1px solid #56FC71;
+}
+
+.successprompt>p,
+.successcopied>p,
+.download>p {
+  color: #56FC71;
+  text-align: center;
+}
+
+/* 公共ban */
+.balanceAll {
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  margin: 25px auto 16px auto;
+}
+
+.balanceBox {
+  width: 94.5%;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--backgroundColor3);
+  border-radius: 16px;
+  border: 1px solid var(--border1);
+  box-sizing: border-box;
+  color: var(--color3);
+  padding-right: 16px;
+  box-sizing: border-box;
+  text-align: right;
+
+}
+
+.balanceBox span {
+  display: block;
+  font-size: 14px;
+  font-family: 'font4';
+}
+
+
+.balanceBox p {
+  font-size: 24px;
+  font-family: 'font3';
+  margin: 3px 0;
+}
+
+.balanceBox img {
+  width: 107px;
+  height: 98px;
+  margin-top: -10px;
+  margin-left: -21px;
+}
+
+
+
+/* 机器人 */
+
+
+
+
+/* 公共 */
+.chooseBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-family: 'font1';
+  margin-top: 16px;
+}
+
+.chooseBox p {
+  background: linear-gradient(to right, #5F54FF, #F842FF);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.chooseBox img {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+
+
+/* 无数据 */
+.w {
+  text-align: center;
+  font-size: 12px;
+  font-family: "font2";
+  color: #939B9B;
+  margin: auto;
+  padding: 180px 0;
+  box-sizing: border-box;
+}
+
+.w>img {
+  width: 47px;
+  height: 47px;
+}

@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner-section{
+    width: 100%;
+    min-height: 225px;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner-info {
+    width: 90%;
+    background: #ffffff85;
+    padding: 20px 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.banner-info .single-info{
+    width: 48%;
+    background-color: aliceblue;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    padding: 17px 10px;
+}
+.banner-info .single-info:nth-child(3),
+.banner-info .single-info:nth-child(4){
+
+    margin-bottom: 0px;
+}
+.level-area .single-level .level-info .single-info p,
+.banner-info .single-info p {
+	color: #B9BABC;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0;
+}
+.level-area .single-level .level-info .single-info h4,
+.banner-info .single-info h4 {
+	color: black;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+.level-section{
+    width: 100%;
+    background: #F7F8FA;
+    padding: 125px 0 20px 0;
+}
+.level-list{
+    width: 100%;
+}
+.level-list ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.level-list ul li{
+    display: inline-block;
+}
+.level-list ul li a{
+    display: block;
+    color: #B9BABC;
+    margin: 5px 8px;
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.level-list ul li a::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 3px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #52C2B4;
+    transition: 1s;
+}
+.level-list ul li a:hover{
+    color: black;
+}
+.level-list ul li:hover a::after{
+    width: 70%;
+}
+.level-list ul li a:first-child{
+    margin-left: 0;
+    /* padding-left: 0; */
+}
+.level-area {
+    width: 100%;
+    padding: 8px;
+}
+.level-area .level-info{
+    width: 100%;
+}
+.level-area .level-name {
+    width: 100%;
+    background: #F7F8FA;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.level-area .level-name h3{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.level-area .single-level {
+    width: 100%;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.level-area .single-level:last-child {
+    margin-bottom: 0px;
+}
+.level-area .single-level .level-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.level-area .single-level .level-info .single-info{
+    width: 48%;
+    background: #F7F8FA;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.level-area .single-level .level-info .single-info:hover h4{
+    color: #52C2B4;
+}
+.level-area .single-level .level-info .single-info:nth-child(3),
+.level-area .single-level .level-info .single-info:nth-child(4){
+    margin-bottom: 0px;
+}
+.level-area .single-level .level-info .single-info h4{
+    margin-bottom: 6px;
+}
+
+
+
+/*ME*/
+.t_baner{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+img.team_banner {
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.t_banner_desc {
+    position: absolute;
+    background: #0000008c;
+    width: 100%;
+    bottom: 0;
+    height: 70px;
+    padding: 10px;
+}
+.t_baner h5 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.t_baner p {
+    color: #fff;
+}
+img.l_icn {
+    width: 35px;
+}
+.t_observation h4 {
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+.t_observation .card {
+    margin: 11px 0;
+}
+.banner-info {
+    bottom: 0;
+}

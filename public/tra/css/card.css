@@ -1,0 +1,138 @@
+.cardimage {
+    width: 126px;
+    height: auto;
+    display: block;
+    margin: 6px auto;
+}
+
+.cardBox {
+    width: 91.5%;
+    margin: auto;
+    border-radius: 16px;
+    background-color: var(--backgroundColor2);
+    border: 1px solid var(--border1);
+    padding: 32px 16px;
+    box-sizing: border-box;
+    text-align: center;
+    color: var(--color3);
+    font-size: 16px;
+    font-family: 'font2';
+    margin-bottom: 20px;
+}
+
+.cardBox>p {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.form_box {
+    margin-top: 26px;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "font2";
+    margin-bottom: 18px;
+    position: relative;
+}
+
+.ipt_box {
+    width: 100%;
+    height: 49px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin-top: 8px;
+    border: 1px solid var(--border2);
+    box-sizing: border-box;
+    background-color: var(--backgroundColor1);
+}
+
+.ipt_box>input {
+    width: 100%;
+    height: 97%;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    color: var(--color3);
+    font-family: "font4";
+    text-align: center;
+}
+
+.ipt_box>input::placeholder {
+    color: var(--color2);
+    font-size: 12px;
+    font-family: "font2";
+}
+
+.ipt_box>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.cardSubmit {
+    width: 100%;
+    height: 49px;
+    border-radius: 100px;
+    background: var(--backgroundColor3);
+    border: 0;
+    font-size: 16px;
+    font-family: "font2";
+    color: var(--color3);
+    display: block;
+    margin: 18px auto 0px auto;
+}
+
+
+select option {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size: 12px;
+    font-family: "font3";
+    color: #111111;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    list-style: none;
+    outline: none;
+    font-size: 14px;
+    color: var(--color3);
+    font-family: "font2";
+    text-align: center;
+}
+
+.huisecolor {
+    background-color: transparent;
+    color: var(--color2);
+    font-size: 12px;
+    font-family: 'font2';
+}
+
+
+.formNameBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color3);
+}
+
+.formNameBox>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}

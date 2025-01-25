@@ -1,0 +1,274 @@
+.user-login {
+	min-height: 100vh;
+	background: linear-gradient(180deg,#00578e,#1182cb);
+	padding: 12.8vw 0 5.333333vw;
+	position: relative;
+}
+.user-login .down-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 0;
+	background: linear-gradient(225deg,#d5efff,#f5fbff);
+	padding: 2.666667vw 4% 2vw;
+	box-shadow: 0 .4vw 2vw 0 rgba(0,0,0,.2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.user-login .down-wrap .left-down {
+	display: flex;
+	align-items: center;
+}
+.user-login .down-wrap .left-down img{
+	width: 9.333333vw;
+    height: 9.333333vw;
+    margin-right: 2vw;
+}
+.user-login .down-wrap .left-down .down-content p{
+	font-weight: 600;
+    font-size: 4.8vw;
+    color: #0064a6;
+}
+.user-login .down-wrap .left-down .down-content span{
+	display: block;
+    font-size: 3.466667vw;
+    line-height: 1.2;
+    color: #333;
+}
+.user-login .down-wrap button{
+    min-width: 20vw;
+    padding: 1.066667vw 2.666667vw;
+    color: #fff;
+    border-radius: 6.666667vw;
+    font-size: 4.266667vw;
+    font-weight: 500;
+    background: #0064a6;
+    border: .266667vw solid #0064a6;
+    box-shadow: 0 2.8vw 5.066667vw -2.8vw rgba(112,79,251,.5),inset 0 0 1.066667vw .533333vw #0064a6;
+}
+.user-login .log-reg-title {
+	margin-top: 10.666667vw;
+	display: flex;
+	align-items: center;
+	padding: 0 4vw;
+}
+.user-login .log-reg-title .title-left p{
+	text-align: left;
+    font-size: 5.333333vw;
+    font-weight: 800;
+    color: #fff;
+}
+.user-login .log-reg-title .title-left p:first-child {
+	width: 205px;
+    font-size: 6.333333vw;
+}
+.user-login .log-reg-title .title-left p:last-child{
+	margin-top: 1.333333vw;
+    font-size: 4vw;
+    font-weight: 500;
+}
+.user-login .log-reg-title img{
+	width: 28vw;
+    height: 28vw;
+    margin-left: 1.333333vw;
+    margin-top: 2.666667vw;
+}
+.user-login .log-reg-form {
+	width: 89.333333vw;
+	background: #fff;
+	border-radius: 6.666667vw;
+	border: 1px solid #979797;
+	margin: 5.333333vw auto 0;
+	padding: 5.333333vw 4vw;
+}
+.user-login .log-reg-form .form-title {
+	text-align: left;
+	margin-bottom: 4vw;
+}
+.user-login .log-reg-form .form-title p{
+	color: #0064a6;
+    font-size: 4.533333vw;
+    font-weight: 500;
+    margin-bottom: .666667vw;
+    position: relative;
+}
+.user-login .log-reg-form .form-title p::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 6.666667vw;
+	height: .8vw;
+	background: #0064a6;
+	border-radius: .4vw;
+	bottom: -7px;
+}
+.user-login .log-reg-form .phone-select {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .666667vw;
+	margin-top: 20px;
+}
+.user-login .log-reg-form .coun-phone {
+	display: flex;
+	align-items: center;
+	margin-right: 2vw;
+    position: relative;
+}
+.user-login .log-reg-form .coun-phone::after {
+	content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 1px;
+    height: 4vw;
+    background: #999;
+}
+.user-login .log-reg-form .coun-phone img{
+	width: 5.333333vw;
+    height: 5.333333vw;
+    border-radius: 50%;
+}
+.user-login .log-reg-form .coun-phone select {
+	color: #0064a6;
+	margin: 0 1.667vw;
+	border: none;
+	background: transparent;
+	font-size: 3.733333vw;
+	font-weight: 500;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+}
+.user-login .log-reg-form .phone-number input {
+	color: #000;
+	font-size: 4.466667vw;
+	border: none;
+    outline: none;
+}
+.user-login .log-reg-form .pass-input input::placeholder,
+.user-login .log-reg-form .phone-number input::placeholder {
+	color: #999;
+    font-size: 3.466667vw;
+    text-transform: capitalize;
+}
+.user-login .log-reg-form .phone-number input:focus {
+	border: none;
+    outline: none;
+}
+.user-login .log-reg-form .pass-input {
+	display: flex;
+	width: 100%;
+	min-height: 10.666667vw;
+	padding: 2vw 0 1.333333vw;
+	align-items: center;
+	margin-top: 4vw;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: .666667vw;
+	position: relative;
+}
+.user-login .log-reg-form .pass-input .hide-show-icon {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+.user-login .log-reg-form .pass-input .hide-show-icon img{
+	width: 5.333333vw;
+    height: 5.333333vw;
+}
+.user-login .log-reg-form .pass-input .right-input {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.user-login .log-reg-form .pass-input .left-icon {
+	display: flex;
+	align-items: center;
+	margin-right: 2.666667vw;
+}
+.user-login .log-reg-form .pass-input .left-icon img{
+	width: 5.333333vw;
+    height: 5.333333vw;
+}
+.user-login .log-reg-form .pass-input input{
+	color: #000;
+    font-size: 4.533333vw;
+    border: none;
+    outline: none;
+}
+.user-login .log-reg-form .pass-input .verification-code img {
+	width: 26.666667vw;
+	height: auto;
+	margin-bottom: 8px;
+}
+.user-login .agree {
+	display: flex;
+	align-items: center;
+	margin-top: 2.666667vw;
+}
+.user-login .agree .useragr{
+	font-size: 3.333333vw;
+	color: #000;
+	font-weight: 500;
+	text-align: left;
+}
+.user-login .agree .useragr span {
+	color: #027cca;
+	font-size: 3.333333vw;
+	text-decoration: underline;
+}
+.user-login .login-btn {
+	width: 69.066667vw;
+	height: 11.733333vw;
+	background: #0f7cc2;
+	box-shadow: 0 1.333333vw 2.533333vw -1.333333vw rgba(112,79,251,.5),inset 0 0 .533333vw .266667vw #027cca;
+	border-radius: 1.066667vw;
+	margin: 6.666667vw auto 0;
+	font-size: 4.8vw;
+	font-weight: 500;
+	color: #fff;
+	line-height: 11.733333vw;
+	text-align: center;
+    cursor: pointer;
+}
+.user-login .btnresi {
+	margin-top: 2.666667vw;
+	font-size: 3.733333vw;
+	color: #999;
+	font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+.copy-right {
+    width: 100%;
+}
+.copy-right p {
+	margin-top: 6.666667vw;
+	color: #fff;
+	font-size: 3.2vw;
+	text-align: center;
+}
+.logtitle {
+	width: 100%;
+	text-align: center;
+}
+.logtitle img {
+	margin-top: 8vw;
+	width: 26.666667vw;
+	height: 26.666667vw;
+	border-radius: 50%;
+}
+.logtitle h2 {
+	font-size: 6.666667vw;
+	font-weight: 500;
+	color: #fff;
+	margin-top: 2.666667vw;
+}
+.logtitle p {
+	font-size: 4.266667vw;
+	color: #fff;
+	padding: 0 13.333333vw;
+}

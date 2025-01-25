@@ -1,0 +1,140 @@
+.bank_banner {
+    background: linear-gradient(rgb(16 49 140 / 90%), rgba(0, 54, 202, .8));
+    height: 250px;
+    padding: 20px 15px;
+}
+
+.bank_acc {
+    font-size: 20px;
+    position: relative;
+}
+
+.bank_acc::after {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    top: 30px;
+    left: 50%;
+    content: "";
+    transform: translate(-50%);
+}
+
+.banner_title{
+    position: relative;
+}
+
+.banner_title img {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    width: 69px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 43px #ffffffb0;
+    padding: 5px 7px;
+}
+
+.banner_title p {
+    color: #fff;
+    margin-top: 9px;
+}
+
+.banner_title h4 {
+    width: 77%;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin-top: 39px;
+}
+
+.bank_form {
+    position: absolute;
+    top: 205px;
+    padding: 0px 15px;
+    background: #fff;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+button.btn.download-btn {
+    background: rgb(0, 100, 166);
+    padding: 15px 65px;
+    font-size: 18px;
+    color: #fff;
+}
+
+label {
+    display: block;
+    width: 100%;
+    color: #000000c2;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 17px;
+    border: none;
+    border-bottom: 1px solid #0000008c;
+    margin-bottom: 15px;
+}
+
+.type{
+    position: relative;
+}
+
+.type .icon {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    color: #000000c4;
+}
+
+.bank_item_content {
+    width: 100%;
+    height: 100%;
+    background: #00000063;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+    opacity: 0;
+}
+
+.bank_item {
+    width: 100%;
+    height: 45%;
+    background: #fff;
+    position: absolute;
+    bottom: -100%;
+    transition: .5s;
+}
+.bank_item_header {
+    padding: 20px;
+    background: #0000001c;
+    font-size: 18px;
+}
+.bank_item_header a {
+    color: #000000a6;
+    font-weight: 600;
+}
+.bank_item_body li {
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.bank_item_body ul {
+    padding-top: 36px;
+}
+
+.type input:focus-visible{
+    outline: none;
+}
+
+

@@ -1,0 +1,94 @@
+.w_banner_box {
+    margin-top: 50px;
+    border-radius: 7px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.w_banner_box .card-body {
+    padding: 40px 0;
+}
+
+.w_banner_box table{
+    margin: auto;
+}
+
+.w_banner_box tr td {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 800;
+}
+.w_input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 7px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(126 71 154);
+    font-size: 17px;
+}
+input.w_submit {
+    border: none;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 50px;
+    background: #03521e;
+    color: #fff;
+}
+.method_name_icon {
+    margin-right: 8px;
+}
+.method_name h3 {
+    font-size: 17px;
+}
+.method_box {
+    padding: 5px 10px;
+    border: 1px solid #03521e69;
+    padding-top: 13px;
+    border-radius: 6px;
+}
+input.w_input:focus-visible {
+    border: 1px solid #03521e69;
+    outline: none;
+}
+.method_name_icon {
+    margin-right: 8px;
+    color: #03521e;
+}
+.title h5 {
+    font-size: 18px;
+}
+.body_content h5 {
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 3px 0;
+}
+.card.w_con {
+    margin: 8px 0;
+    border: none;
+    box-shadow: 0px 5px 10px #03521e69;
+}
+
+section.channel_box {
+    position: absolute;
+    width: 98%;
+    right: 100%;
+    z-index: 999;
+    transition: .3s ease-in-out;
+    top: 42%;
+}
+section.channel_box .card {
+    background: #03521ecc;
+}
+.channel_box ul{
+    list-style: none;
+}
+.channel_box li {
+    color: #fff;
+    font-size: 20px;
+    padding: 7px 5px;
+}
+.channel_box li:hover {
+    background: #03521e;
+}

@@ -1,0 +1,205 @@
+
+/* === Element Global Css Start === */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+body, html {
+	height: auto;
+	min-height: 100%;
+	user-select: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+	font-family: 'Barlow', sans-serif;
+}
+img{
+  vertical-align: middle;
+  display: inline-block;
+}
+ul,li{
+	list-style: none;
+}
+/* === Element Global Css End === */
+/* === Content Global Css Start === */
+.wrapper {
+	min-height: 100vh;
+	padding: 30px 0;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background: #ffffff;
+	padding-bottom: 90px;
+}
+.container{
+  width: 96%;
+  margin: 0 auto;
+}
+/* menu css */
+.menu-area {
+	width: 100%;
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0.1px;
+	left: 0;
+	background: #fff;
+	z-index: 9;
+}
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu li a {
+	text-decoration: none;
+	color: rgb(204, 204, 204);
+	font-size: 14px;
+	text-transform: capitalize;
+	display: block;
+	text-align: center;
+}
+.menu li.active.home a,
+.menu li.active a,
+.menu li:hover a {
+	color: rgb(0, 100, 166);
+
+}
+.menu li.active.home a .menu-content img.image-bg,
+.menu li.home:hover a .menu-content img.image-bg{
+	display: none;
+}
+.menu li.home a .menu-content .football-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+}
+.menu li.active.home a .menu-content img.home-football{
+	animation: spin 5s ease-in-out .15s;
+}
+.menu li.active.home a .menu-content img.home-football,
+.menu li.active.home a .menu-content img.image-active,
+.menu li.active a .menu-content img.image-active,
+.menu li:hover a .menu-content img.image-active {
+	display: block;
+
+}
+.menu li.home a .menu-content img.image-bg{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+
+}
+.menu li.home a .menu-content img.image-active{
+	width: 52px;
+	height: 52px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.menu .menu-content {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: center;
+}
+.menu .menu-content img{
+	width: 23px;
+	height: 23px;
+}
+.menu .menu-content img.image-active {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.menu .menu-content .menu-icon {
+	position: relative;
+}
+.menu-name.mt-menu {
+	margin-top: 24px;
+}
+/* menu end */
+.title {
+	width: 100%;
+}
+.title h2 {
+	font-size: 20px;
+	color: #000;
+	position: relative;
+	margin-right: 10px;
+}
+.title h2::after {
+	content: '';
+	display: block;
+	background: #263249;
+	height: 3px;
+	width: 20%;
+	bottom: -5px;
+	left: 0;
+	position: absolute;
+	border-radius: 2px;
+}
+.easy-access {
+	position: fixed;
+	bottom: 95px;
+	right: 20px;
+}
+.easy-access .online-service img {
+	width: 70px;
+	height: 43px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+span {
+	color: rgba(0,0,0,.5);
+}
+p, span {
+	font-size: 3.733333vw;
+}
+
+/* === Content Global Css End === */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

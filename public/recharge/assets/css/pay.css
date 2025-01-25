@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+	color: #646464;
+}
+.pay-page {
+	width: 100%;
+	padding: 20px 15px;
+	background: #FCF8F9;
+	min-height: 100vh;
+}
+.pay-header {
+	width: 100%;
+	text-align: center;
+}
+.pay-header p:first-child span {
+	color: #FE7680;
+}
+.pay-header p:first-child {
+	font-weight: 600;
+}
+.pay-header h2{
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.pay-header h2 span{
+    font-size: 25px;
+}
+.pay-header p:nth-child(3) {
+	color: #FE7680;
+	margin-bottom: 0px;
+}
+.pay-header p:nth-child(3) span{
+	font-style: italic;
+    text-transform: uppercase;
+}
+.pay-header p:last-child span{
+	font-weight: 700;
+}
+.method-section {
+	width: 100%;
+}
+.method-section .single-mthod {
+	width: 100%;
+	background: #fff;
+	padding: 15px 10px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+.method-section .single-mthod .method-header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.method-section .single-mthod .method-header h3 {
+	font-size: 17px;
+	text-transform: capitalize;
+	font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.method-section .single-mthod .method-header img {
+	width: 15px;
+}
+.method-section .single-mthod .method-header .method-icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.method-section .single-mthod .mehtod-name {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.method-section .method-body {
+	width: 100%;
+	padding-top: 30px;
+}
+.method-section .method-body .info {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #0000001f;
+}
+.method-section .method-body .info:first-child {
+	padding-top: 0;
+}
+.method-section .method-body .info h4 {
+	text-transform: capitalize;
+	font-weight: 700;
+	color: #000000b2;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+.method-section .method-body .info .details {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.method-section .method-body .info .details p {
+	color: #FE757E;
+	width: 155px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+}
+.method-section .method-body .info .details .copy-btn {
+	padding: 7px 15px;
+	background: #FE757E;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 26px;
+}
+.method-section .method-body .input {
+	padding-top: 20px;
+	width: 100%;
+}
+.method-section .method-body .input input {
+	width: 100%;
+	font-size: 16px;
+	border: none;
+	padding: 10px 15px;
+	outline: none;
+	/* background: #00000008; */
+	margin: 10px 0;
+	border-radius: 6px;
+}
+.method-section .method-body .input p{
+	margin-bottom: 0;
+}
+.method-section .submit {
+	width: 100%;
+	text-align: center;
+}
+.method-section .submit .submit-btn {
+	background: #FD767F;
+	color: #fff;
+	width: 80%;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	border-radius: 25px;
+	margin-top: 30px;
+	font-weight: 600;
+}

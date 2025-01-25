@@ -1,0 +1,328 @@
+.excessiveBox {
+    width: 91.5%;
+    margin: 4px auto 24px auto;
+    border-radius: 16px;
+    background-color: var(--backgroundColor1);
+    border: 1px solid var(--border2);
+    font-size: 14px;
+    font-family: 'font2';
+    color: #9E52FF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+.recordBox {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+
+.timeBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: 'font4';
+    color: var(--color3);
+    position: relative;
+}
+
+
+.timeBox p {
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.timeBox p::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+
+.amountBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color3);
+    font-size: 14px;
+    font-family: 'font2';
+    border-radius: 100px;
+    border: 1px solid var(--border1);
+    padding: 9px 16px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    background-color: var(--backgroundColor2);
+}
+
+.amountItem p {
+    font-family: 'font4';
+}
+
+
+.uploadBtn,
+.checkBtn {
+    width: 103px;
+    height: 38px;
+    border-radius: 54px;
+    background: var(--backgroundColor3);
+    border: 0;
+    color: var(--color3);
+    font-size: 16px;
+    font-family: 'font2';
+
+}
+
+
+.checkBtn {
+    background: transparent;
+    border: 1px solid #5F54FF;
+    background: linear-gradient(to right, #5F54FF, #F842FF);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'font1';
+}
+
+
+.succeseColor {
+    color: #56FC71;
+    font-size: 12px;
+    font-family: 'font1';
+}
+
+.confirmingColor {
+    color: #FCD756;
+    font-size: 12px;
+    font-family: 'font1';
+}
+
+.unconfirmedColor {
+    color: #FC5656;
+    font-size: 12px;
+    font-family: 'font1';
+}
+
+
+
+/* 上传页面 */
+.excessiveBox2 {
+    margin-bottom: 16px;
+}
+
+.uploadBox {
+    width: 91.5%;
+    margin: auto;
+    border-radius: 16px;
+    background-color: var(--backgroundColor2);
+    border: 1px solid var(--border1);
+    color: var(--color3);
+    font-size: 16px;
+    font-family: 'font1';
+    text-align: center;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+
+
+.uldAll {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.uld_box,
+.yesupload {
+    width: 100%;
+    height: 282px;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    background-color: var(--backgroundColor1);
+    border: 1px solid var(--border2);
+    position: relative;
+}
+
+.yesupload {
+    padding: 13px 0;
+    height: auto;
+}
+
+.uld_box>p {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "font1";
+    text-decoration: underline;
+    color: var(--color1);
+    margin-top: 3px;
+}
+
+
+.uld_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.reselect2 {
+    position: relative;
+    margin: auto;
+}
+
+.reselect2 p {
+    padding: 13px 28px 0 28px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: 14px;
+    font-family: "font1";
+    text-decoration: underline;
+    color: var(--color1);
+}
+
+
+.uld_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.uld_box>img {
+    width: 40px;
+    height: 40px;
+}
+
+.reselect {
+    width: 99px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: #101010;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    font-family: "font1";
+}
+
+.upimg {
+    max-width: 303px;
+    min-width: 85px;
+    display: block;
+    margin: auto;
+    margin-top: 23px;
+}
+
+
+#file,
+#file2 {
+    width: 215px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+#file2 {
+    width: 106px;
+    height: 35px;
+    top: 64%;
+    right: 0;
+}
+
+.yesupload_img {
+    width: 57%;
+    height: 247px;
+}
+
+
+.iptBox {
+    font-size: 12px;
+    font-family: 'font1';
+    color: var(--color1);
+}
+
+.iptNameBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: 'font2';
+    color: var(--color3);
+    margin-top: 18px;
+}
+
+.iptNameBox img {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+
+.iptBox input {
+    width: 100%;
+    height: 49px;
+    border-radius: 100px;
+    border: 1px solid var(--border2);
+    padding: 0 27px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: 'font4';
+    color: var(--color3);
+    background-color: var(--backgroundColor1);
+    text-align: center;
+}
+
+.iptBox input::placeholder {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-family: 'font2';
+}
+
+
+.shili {
+    width: 220px;
+    height: 400px;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.referralLinkBox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #131C2C;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadImg {
+    width: 91%;
+    background: var(--backgroundColor3);
+    border-radius: 100px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color3);
+    font-size: 16px;
+    font-family: 'font2';
+}

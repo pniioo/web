@@ -1,0 +1,119 @@
+:root{
+    --color-warning: #febf4e;
+    --color-success: #57b350;
+    --color-gray: #c3c3c3;
+
+    --progressbar-border-width: 10px;
+    --progressbar-border-color: #ffffff;
+    --progressbar-progress-color: #4158d0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+svg,
+img{
+    display: block;
+}
+
+.text-warning{
+    color: var(--color-warning);
+}
+
+.header,
+.header__icon,
+.circle,
+.circle__inner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    position: relative;
+    background-color: var(--color-warning);
+    padding: 100px 15px 90px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.header__icon{
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: var(--color-success);
+}
+
+.timer{
+    color: var(--color-gray);
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.circle,
+.circle__progressbar
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.circle__progressbar{
+    transform: rotate(270deg);
+}
+
+.circle__progressbar__progress{
+    width: 100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: var(--progressbar-border-width);
+    stroke: var(--progressbar-border-color);
+    stroke-linecap: round;
+    transform: translate(10px, 10px);
+}
+
+.circle__progressbar__progress[data-circle="progress"]{
+    stroke: var(--progressbar-progress-color);
+}
+
+.circle__inner{
+    flex-direction: column;
+    position: absolute;
+    inset: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.circle__inner__title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle__inner__text {
+    font-size: 18px;
+}
+
+.circle__inner__text--gray{
+    color: var(--color-gray);
+}
+
+.circle__inner__text--success{
+    color: var(--color-success);
+    margin-bottom: 10px;
+}

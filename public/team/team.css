@@ -1,0 +1,364 @@
+.container {
+
+}
+.content {
+    padding: 0 0.36rem;
+    background: #ffffff;
+    border-radius: 0.6rem 0.6rem 0px 0px;
+}
+.header {
+    padding-top: 0.44rem;
+    height: 1rem;
+    color: #131A22;
+    font-size: 0.41rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.received {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin: 0.32rem;
+    flex-direction:row;
+    align-content: space-between;
+}
+
+.received  p {
+    font-size: 0.26rem;
+    color: #999999;
+}
+.received .num {
+    font-size: 0.38rem;
+    display: block;
+    margin: 0px 0px 0.1rem 0px;
+}
+
+.received .right {
+    font-size: 0.3rem;
+    text-align: center;
+}
+
+.division {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.2rem;
+    text-align: center;
+}
+.division li{
+    flex: 1;
+    padding: 0.1rem 0px;
+}
+.division li h5{
+    padding: 0.1rem 0px;
+    font-size: 0.3rem;
+}
+
+
+.division li.selected{
+    background: #4263EB;
+    border-radius: 0.29rem;
+    color: #fff;
+}
+
+.team .top {
+    display: flex;
+    margin-top: 0.2rem;
+}
+.team .bottom span {
+    font-size: 0.38rem;
+    color: #034937;
+    margin: 0 0.03rem;
+}
+.team .bottom  {
+    font-size: 0.28rem;
+    color: rgba(255,255,255,0.6000);
+}
+.team .top .left {
+    font-size: 0.44rem;
+    font-weight: 500;
+    line-height: 0.32rem;
+    min-width: 1.8rem;
+    width: auto;
+}
+.team .top .right {
+    font-weight: 400;
+    color: rgba(255,255,255,0.6000);
+    font-size: 0.29rem;
+    padding-left: 0.5rem;
+}
+
+.team .top .num {
+    line-height: 0.39rem;
+    margin-top: 0.1rem;
+    font-size: 0.23rem;
+
+}
+.team .top .num span {
+    font-size: 0.33rem;
+    margin-left: 0.1rem;
+}
+.img-list {
+    margin-top: 0.02rem;
+    display: flex;
+    padding-left: 0.14rem;
+    align-items: center;
+    position: relative;
+}
+.team .top .left .tag {
+    display: inline-block;
+    position: absolute;
+    background: white;
+    font-weight: 500;
+    font-size: 0.09rem;
+    font-weight: 500;
+    border-radius: 100%;
+    width: 0.4rem;
+    height: 0.4rem;
+    color: black;
+    top: -0.1rem;
+    right: -0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-list > div {
+    width: 0.57rem;
+    height: 0.57rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: -0.14rem;
+    border: 0.02rem solid #279C7E;
+}
+.team_bg{
+    background: url("assets/img/team_bg.png") no-repeat;
+    background-size: contain;
+    height: 5.5rem;
+    color: #fff;
+}
+.team_bg h1{
+    font-size: 0.3rem;
+    font-weight: 500;
+    line-height: 0.32rem;
+    padding: 0.3rem 0.2rem 0px 0.2rem;
+}
+.team2 .img-list > div {
+    border: 0.02rem solid #FFB12A;
+}
+.team3 .img-list > div {
+    border: 0.02rem solid #00CC96;
+}
+.img-list img {
+    width: 100%;
+    height: 100%;
+}
+.team_title span {
+    font-size: 0.64rem;
+    margin: 0 0.1rem;
+}
+.team .bottom {
+    padding-top: 0.1rem;
+}
+#no-data-list{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.3rem;
+    padding: 0.2rem 0px;
+    display: none;
+}
+
+.my_invitation{
+margin-top: 10px;
+}
+
+.my_invitation h1{
+    font-size: 0.36rem;
+}
+.my_invitation p{
+    font-size: 0.26rem;
+    color: #999999;
+    padding: 0.2rem 0.2rem 0.2rem 0px;
+    padding-bottom: 0;
+}
+.copy {
+    margin-top: 0.3rem;
+    background: #F7F7F7;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #333333;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.16rem 0.25rem 0.16rem 0.25rem;
+    border: 1px solid #333333;
+}
+.copy img {
+    width: 0.75rem;
+}
+.copy .left {
+    flex: 1;
+    overflow: hidden;
+}
+.copy .code {
+    font-weight: 400;
+    color: #333333;
+}
+.copy #copyCode , .copy #copy-link{
+    background: #38a61c;
+    color: #fff;
+    padding: 0.15rem 0.25rem 0.15rem 0.25rem;
+    border-radius: 0.4rem;
+}
+
+.invite_title{
+    font-size: 0.36rem;
+    margin-top: 0.5rem;
+}
+.my_invite_bg .title {
+    height: 1rem;
+    line-height:1rem;
+    font-weight: 500;
+    color: #CCCACF;
+    font-size: 0.32rem;
+    text-align: center;
+}
+.my_invite_bg .title span{
+    text-align: center;
+    color: #000;
+}
+.my_invite_border {
+    border-radius: 0.3rem;
+}
+.my_invite {
+
+
+}
+.my_invite .my_bottom {
+    font-size: 0.26rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+    padding-bottom: 0.30rem;
+    color: #ffffff;
+}
+
+.my_invite .my_bottom > div {
+
+
+}
+
+.my_invite li {
+    padding: 0.20rem 0.18rem 0 0.18rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.28rem;
+    margin: 0.3rem 0px;
+
+}
+.my_invite  li  .num {
+    font-size: 0.31rem;
+    margin-bottom: 0.1rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.my_invite .friend,.my_invite .no_award{
+    text-align: center;
+    background: #999999;
+    color: #fff;
+    padding: 0.2rem 0.25rem 0.2rem 0.25rem;
+    border-radius: 0.5rem;
+}
+.my_invite  .no_award_list{
+
+}
+.my_invite .friend a{
+    color: #f3f3f3;
+
+}
+
+.my_invite .friend {
+    background: #91dba6;
+    color: #fff;
+}
+.my_invite .my_top {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+
+}
+.my_invite .flex-1{
+    font-size: 0.28rem;
+}
+.my_task_progress{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0.2rem;
+}
+
+.progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #999999 ;
+    border-radius: .25rem;
+    flex: 1;
+    margin-top: 0.1rem;
+}
+
+.progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+    background-color: #FAE67C;
+}
+.my_invite_bg1{
+    background-color: #6677f6;
+}
+.my_invite_bg2{
+    background-color: #3f3f3f;
+}
+.my_invite_bg3{
+    background-color: #e9be1e;
+}
+.progress_tip{
+    padding: 0px 0.18rem;
+}
+
+.my_ratio{
+    font-weight: bold;
+}
+.my_ratio span{
+    font-size: 0.2rem;
+}
+.title_circle{
+
+}
+.tip_msg{
+    font-size: 0.23rem;
+    line-height: 0.38rem;
+}

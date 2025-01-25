@@ -1,0 +1,150 @@
+.balanceAll {
+    margin: 2px auto;
+}
+
+.balanceBox {
+    width: 100%;
+    padding: 18px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.balanceItem {
+    margin: auto;
+}
+
+
+.amountBox {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    margin: 16px auto;
+    color: var(--color3);
+    font-family: 'font2';
+}
+
+
+.amountBox span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+.amountBox input {
+    width: 100%;
+    height: 64px;
+    border: 1px solid var(--border2);
+    border-radius: 44px;
+    background-color: var(--backgroundColor1);
+    text-align: center;
+    margin: 8px auto 16px auto;
+    font-size: 20px;
+    font-family: 'font3';
+    color: var(--color1);
+}
+
+.amountBox input::placeholder {
+    font-size: 12px;
+    font-family: 'font1';
+}
+
+.amountBox p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+.withdrawBtn{
+  width: 100%;
+  height: 48px;
+  border-radius: 54px;
+  background: var(--backgroundColor3);
+  border: 0;
+  font-size: 16px;
+  font-family: 'font2';
+  color: var(--color3);
+  margin-top: 16px;  
+}
+
+
+.chooseBox{
+    font-family: 'font1';
+}
+
+
+
+.today2 {
+    width: 91.5%;
+    margin: 16px auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #2a3241;
+    border: 1px solid var(--border2);
+}
+
+.today_title2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "font2";
+    color: var(--color3);
+}
+
+.today_title2>div {
+    height: 40px;
+    line-height: 42px;
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid var(--border2);
+}
+
+.today_title2>div:last-child {
+    border: 0;
+}
+
+.today_content2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: "font4";
+    color: #fff;
+    border-top: 1px solid var(--border2);
+}
+
+.today_content2>div {
+    height: 42px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid var(--border2);
+}
+
+.today_content2>div:last-child {
+    border: 0;
+}
+
+.statuscolor2 {
+    color: #56FC71;
+    font-family: "font1";
+}
+
+.processingcolor2 {
+    color: #FCD756;
+    font-family: "font1";
+}
+
+.failedcolor2 {
+    color: #FC5656;
+    font-family: "font1";
+}
+
+
+.w {
+    padding: 50px 0;
+}
